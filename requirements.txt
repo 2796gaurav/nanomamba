@@ -1,0 +1,47 @@
+# NanoMamba-Edge Requirements
+# Core dependencies for the project
+
+# Python version
+python>=3.9,<3.11
+
+# Machine Learning and Data Science
+torch>=2.0.0
+transformers>=4.30.0
+datasets>=2.14.0
+accelerate>=0.20.0
+bitsandbytes>=0.41.0
+peft>=0.4.0
+optuna>=3.1.0
+
+# AWS and Cloud
+sagemaker>=2.180.0
+boto3>=1.28.0
+
+# Data Processing and Visualization
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Configuration and Utilities
+configparser>=5.3.0
+python-dotenv>=1.0.0
+
+# Monitoring and Logging
+wandb>=0.15.0
+
+# Testing and Development
+tqdm>=4.65.0
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+isort>=5.12.0
+
+# Type Checking
+mypy>=1.0.0
+types-python-dateutil>=2.8.19
+
+# Documentation
+mkdocs>=1.4.0
+mkdocs-material>=9.0.0
+pymdown-extensions>=9.0.0

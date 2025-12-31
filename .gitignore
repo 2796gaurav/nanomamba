@@ -1,0 +1,92 @@
+# Python
+env/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv
+.env
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Data and models
+data/
+models/
+checkpoints/
+
+# Logs and outputs
+logs/
+*.log
+output/
+
+# Configuration
+config.ini
+*.ini
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Cache
+.cache/
+*.cache
+
+# Hugging Face cache
+hf_cache/
+
+# SageMaker artifacts
+.sagemaker/
+
+# Test results
+test_results/
+coverage/
+
+# Dry run results
+dry_run_results/
+
+# Visualizations
+visualizations/
+metrics/
+benchmarks/
+
+# Environment variables
+.env
+.env.local
+
+# Python package files
+*.egg
+*.egg-info
+
+# Installation files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Compiled files
+*.so
+*.pyd
+*.pyc
+
+# Database files
+*.db
+*.sqlite
+
+# OS generated files
+ehthumbs.db
+Icon?
+._*
+.Spotlight-V100
+.Trashes
